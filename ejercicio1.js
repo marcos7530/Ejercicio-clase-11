@@ -13,7 +13,8 @@ let upperLimitEven=10;
 let lowerLimitOdd=1;
 let upperLimitOdd=9;
 
-for (let index = lowerLimitEven; index < upperLimitEven; index++) {
+for (let index = lowerLimitEven; index 
+    < upperLimitEven; index++) {
     if (index%2==0) {
         console.log('El numero ${index} es par');
     }
